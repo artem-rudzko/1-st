@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1475149865260" stop="1475149914709" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : TUT.BY</name>
+    <title>Default Suite : TUT.BY</title>
+    <test-cases>
+        <test-case start="1475149878143" stop="1475149911799" status="passed">
+            <name>sendLetterToSecondEmail[artemrudzko@tut.by,rudzkoartem@tut.by,bcgfytw92,70a19aa5fce6_ThuSep29145117MSK2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-31VA3KNSDRQ"/>
+                <label name="thread" value="6280@WIN-31VA3KNSDRQ.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

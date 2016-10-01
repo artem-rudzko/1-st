@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1475251178012" stop="1475251354924" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : TUT.BY</name>
+    <title>Default Suite : TUT.BY</title>
+    <test-cases>
+        <test-case start="1475251193887" stop="1475251228500" status="passed">
+            <name>sendLetterToSecondEmail[arrrrttte@tut.by,qwertyzxcvbn,arrrrrrttt@tut.by,asdfghjkllkjhgfdsa,73a72b832da2_FriSep30185937MSK2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-31VA3KNSDRQ"/>
+                <label name="thread" value="7624@WIN-31VA3KNSDRQ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1475251228609" stop="1475251260505" status="passed">
+            <name>sendLetterToSecondEmail[artemrud@tut.by,123456789,artemrudz@tut.by,987654321,73a72b832da2_FriSep30185937MSK2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-31VA3KNSDRQ"/>
+                <label name="thread" value="7624@WIN-31VA3KNSDRQ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1475251260521" stop="1475251293153" status="passed">
+            <name>sendLetterToSecondEmail[artemrudzk@tut.by,1234567890,artrudzko@tut.by,qwertyuiop,73a72b832da2_FriSep30185937MSK2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-31VA3KNSDRQ"/>
+                <label name="thread" value="7624@WIN-31VA3KNSDRQ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1475251293158" stop="1475251323201" status="passed">
+            <name>sendLetterToSecondEmail[arrudz@tut.by,asdfghjkl,artemmerta@tut.by,qazwsxedc,73a72b832da2_FriSep30185937MSK2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-31VA3KNSDRQ"/>
+                <label name="thread" value="7624@WIN-31VA3KNSDRQ.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1475251323205" stop="1475251352431" status="passed">
+            <name>sendLetterToSecondEmail[artemarte@tut.by,qazwsxedcrfv,artemrudd@tut.by,qwertyasdfgh,73a72b832da2_FriSep30185937MSK2016]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="WIN-31VA3KNSDRQ"/>
+                <label name="thread" value="7624@WIN-31VA3KNSDRQ.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
