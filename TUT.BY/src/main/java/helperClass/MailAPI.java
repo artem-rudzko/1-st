@@ -1,10 +1,8 @@
 package helperClass;
+
+
 import com.sun.mail.imap.IMAPFolder;
 import com.sun.mail.imap.IMAPStore;
-import core.TestBase;
-
-
-
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
@@ -14,7 +12,6 @@ public class MailAPI {
     public static void sendMessage(String emailSender, String passwordSender, String emailRecipient, String subject, String message)
             throws MessagingException, UnsupportedEncodingException {
         sendSimpleMessage(emailSender, passwordSender, emailSender, emailRecipient, message, subject);
-        TestBase.logger.info("sending emails from : " + emailSender +" to " + emailRecipient + " successfully completed");
     }
 
     public static void sendSimpleMessage(

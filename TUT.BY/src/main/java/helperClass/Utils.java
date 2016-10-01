@@ -19,11 +19,8 @@ public class Utils {
     }
 
     public static void shoot(String name) throws IOException {
-        long curTime = System.currentTimeMillis();
 
-        Date now = new Date(curTime);
         File screenshot = ((TakesScreenshot) TestBase.driver).getScreenshotAs(OutputType.FILE);
-//        DateFormat.getInstance().format(now)
         FileUtils.copyFile(screenshot, new File("Screenshot\\" +name+System.currentTimeMillis()+".png"));
     }
 }

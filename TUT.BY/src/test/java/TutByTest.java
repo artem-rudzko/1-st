@@ -68,19 +68,14 @@ public class TutByTest extends TestBase {
     public void sendLetterToSecondEmail(String emailSender, String passwordSender, String emailRecipient,
                                         String passwordRecipient , String subject )
             throws UnsupportedEncodingException, MessagingException {
-        TestBase.logger.info("Try to send letter from :" + emailSender + " to :" + emailRecipient);
         MailAPI.sendMessage(emailSender,passwordSender,emailRecipient,subject,someMessageFromLetter);
         MainPage.enterTheEmail(driver,emailSender,passwordSender);
-
         HomePage.verifySentEmail(driver,emailRecipient,subject);
         HomePage.returnToMainPage(driver);
-
         MainPage.enterTheEmail(driver,emailRecipient,passwordRecipient);
         assertTrue(MainPage.isDisplayedLogo(driver));
         HomePage.checkMessageInInbox(driver, emailSender, subject);
         HomePage.returnToMainPage(driver);
-        logger.info("Test successfully completed");
     }
-
 }
 

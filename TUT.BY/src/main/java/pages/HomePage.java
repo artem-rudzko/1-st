@@ -1,7 +1,6 @@
 package pages;
 
 
-import core.TestBase;
 import helperClass.Waiters;
 import locators.Locators;
 import org.openqa.selenium.*;
@@ -20,7 +19,6 @@ public class HomePage {
         if(!driver.findElements(MESSAGE_SUBJECT_LINK).get(0).getAttribute("title").contains(subject)) {
             return false;
         }
-        TestBase.logger.info(fullFirstUserLogin + " has e-mail with subject " + subject + " in sent present");
         return true;
     }
 
@@ -39,7 +37,6 @@ public class HomePage {
         if(!driver.findElements(MESSAGE_SUBJECT_LINK).get(0).getAttribute("title").contains(subject)){
             return false;
         }
-        TestBase.logger.info(fullSecondUserLogin + " has e-mail with subject " + subject + " in inbox");
         return true;
     }
 }

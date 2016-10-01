@@ -1,5 +1,6 @@
 package helperClass;
 
+
 import java.io.*;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
@@ -13,13 +14,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
 public class NewParser {
     private static final String url = "jdbc:mysql://localhost:3306/userinfo";
     private static final String user = "root";
     private static final String password = "bcgfytw1992";
-
-
     private static Connection con;
     private static Statement stmt;
     private static ResultSet rs;
